@@ -38,3 +38,6 @@ g++ -std=c++14 -O2 -Wall -Wextra -Werror -I. tests/allocator_test.cpp -o /tmp/al
 - 879551: Compile Error. The Git submission endpoint compiled the repository
   URL as literal source text. Added `--source-file` support to the client to
   submit the header using the supported `cpp` language.
+- 879553: Accepted, 100/100, all ten test groups passed. Submitted `src.hpp`
+  directly as C++ with no allocator changes after local testing. Total attempts:
+  two of five.
